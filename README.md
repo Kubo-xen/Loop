@@ -1,2 +1,2 @@
 # Loop
-Loop in every programming language
+Looping in every programming language
