@@ -3,19 +3,16 @@ using namespace std;
 
 int main() {
 
-    // with i++
-    for (int i=1; i<=10; i++) {
-        cout << i << " ";
+    int i = 5;
+
+    while(i > 0) {
+        cout << "Hello World with while" << endl;
+        i--;
     }
 
-    cout << endl;
-    
-    // with i--
-    for (int i=10; i>0; i--) {
-        cout << i << " ";
+    for (i = 0; i < 5; i++) {
+        cout << "Hello World with for" << endl;
     }
-    
-    cout << endl;
 
     return 0;
 }
